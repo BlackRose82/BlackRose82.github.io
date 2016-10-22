@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BlackRose</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="shortcut icon" href="assets/img/fav_night.png">
+    <link rel="stylesheet" href="/assets/css/foundation.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <script src="/assets/js/foundation.js" defer></script>
+    <script src="/assets/js/app.js" defer></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="is_overlay" id="trailer">
+      <video id="video" width="100%" height="auto" autoplay="autoplay" loop="loop" preload="auto">
+        <source src="/assets/img/night.mp4">
+        <source src="/assets/img/night.ogv" type="video/ogv">
+      </video>
+      <div class="paralax">
+        <ul class="paralax-control">
+          <li class="layer paralax__layer paralax__layer-image" data-depth="0.5"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrapper welcome">
+      <div class="container welcome-header">
+        <div class="btn__btn-link">Авторизоваться</div>
+        <div class="welcome-block">
+          <div class="welcome-bloc__front">
+            <div class="my-avatar__img"><img src="assets/img/avatar.png" alt="Shapira Cristina"></div>
+            <div class="my-avatar__name">
+              <h2 class="name">Шапира Кристина</h2>
+              <p class="title">Личный сайт веб-разработчика</p>
+            </div>
+            <ul class="social-icons__list">
+              <li class="social-icons__item"><a class="social-icons__link" href="https://vk.com/tibhar82" target="link">
+                  <svg>
+                    <use xlink:href="assets/img/sprite.svg#vk"></use>
+                  </svg></a></li>
+              <li class="social-icons__item"><a class="social-icons__link" href="https://github.com/BlackRose82" target="link">
+                  <svg>
+                    <use xlink:href="assets/img/sprite.svg#github"></use>
+                  </svg></a></li>
+              <li class="social-icons__item"><a class="social-icons__link" href="www.linkedin.com/in/cristina-shapira" target="link">
+                  <svg>
+                    <use xlink:href="assets/img/sprite.svg#in"></use>
+                  </svg></a></li>
+            </ul>
+            <ul class="social-list__block">
+              <li class="social-list__item social-list__item--works"><a class="social-list__link" href="works.html">Мои работы</a></li>
+              <li class="social-list__item social-list__item--about"><a class="social-list__link" href="about.html">Обо мне</a></li>
+              <li class="social-list__item social-list__item--blog"><a class="social-list__link" href="blog.html">Блог</a></li>
+            </ul>
+          </div>
+          <div class="welcome-block__back">
+            <h2 class="welcome-form__title">Авторизуйтесь</h2>
+            <form action="">
+              <fieldset class="welcome-form__fieldset input">
+                <div class="welcome-form__input--wrap">
+                  <input class="welcome-form__input login" type="text" placeholder="Логин">
+                </div>
+                <div class="welcome-form__input--wrap">
+                  <input class="welcome-form__input password" type="password" placeholder="Пароль">
+                </div>
+              </fieldset>
+              <fieldset class="welcome-form__fieldset checkbox">
+                <input class="welcome-form__checkbox" id="human" type="checkbox">
+                <label class="welcome-form__checkbox--label" for="human">Я человек</label>
+              </fieldset>
+              <fieldset class="welcome-form__fieldset radio">
+                <div class="welcome-form__legend">Вы точно не робот?</div>
+                <input class="welcome-form__radio" id="robot-yes" type="radio" name="urobot">
+                <label class="welcome-form__radio--label" for="robot-yes">Да</label>
+                <input class="welcome-form__radio" id="robot-no" type="radio" checked name="urobot">
+                <label class="welcome-form__radio--label" for="robot-no">Не уверен</label>
+                <ul class="welcome-form__list">
+                  <li class="welcome-form__item"><a class="welcome-form__home">На главную</a></li>
+                  <li class="welcome-form__item"><a class="welcome-form__link" href="#">Войти</a></li>
+                </ul>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="welcome-footer">
+      <div class="copyright"><span>&#169; 2016</span><span>Shapira Cristina</span></div>
+    </footer>
+  </body>
+  <div class="preloader">
+    <div class="preloader__counter">0</div>
+    <svg class="preloader__svg" viewbox="0 0 200 200" svgns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+      <path class="arc" d="M200,200 " fill="none"></path>
+    </svg>
+  </div>
+</html>
